@@ -13,7 +13,7 @@ const App = () => {
   return (
     <>
       <NavigationContainer>
-        <Stack.Navigator initialRouteName="Profile">
+        <Stack.Navigator initialRouteName="StartGame">
           <Stack.Screen
             name="SplashScreen"
             component={Profile}
