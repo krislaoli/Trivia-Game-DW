@@ -39,9 +39,9 @@ const StartGame = () => {
       <Image style={styles.logo1} source={require("../assets/logo1.png")} />
       <StatusBar style="auto" />
       <View style={styles.diamondContainer}>
-        <TouchableOpacity style={styles.diamondButton}>
+        <View style={styles.diamondButton}>
           <Text style={styles.diamondText}>20</Text>
-        </TouchableOpacity>
+        </View>
 
         <TouchableOpacity onPress={toggleModal}>
           <Image
